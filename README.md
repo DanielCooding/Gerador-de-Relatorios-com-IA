@@ -7,7 +7,7 @@ Um gerador de relatórios inteligente que aceita arquivos **PDF** e **CSV**, uti
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind-3-38bdf8?style=for-the-badge&logo=tailwindcss)
 ![GROQ](https://img.shields.io/badge/GROQ-AI-f55036?style=for-the-badge)
 
-## ✨ Funcionalidades
+## Funcionalidades
 
 - 📁 **Upload de arquivos** PDF e CSV com drag & drop
 - 🤖 **Resumo automático** com IA (padrão: GROQ com Llama 3)
@@ -98,11 +98,11 @@ src/
 
 ## 📦 Deploy
 
-### Vercel (Recomendado)
+### Sua preferência, normalmente para testes uso o vercel. (Recomendado)
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/DanielCooding/Gerador-de-Relatorios-com-IA)
 
 ### Railway
-Importe o repositório no [Railway](https://railway.app) e configure as variáveis de ambiente.
+Importe o repositório no [Railway](https://railway.app) e configure as variáveis de ambiente (backend, gratuito e para testes).
 
 ## 📝 Licença
 
