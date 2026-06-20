@@ -56,10 +56,6 @@ export default function HomePage() {
 
       {/* Hero */}
       <section className="flex flex-col items-center justify-center flex-1 px-4 py-20 text-center animate-fadeIn">
-        <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-sky-500/30 bg-sky-500/10 text-sky-400 text-sm font-medium mb-6">
-          <Sparkles size={14} />
-          Powered by GROQ · Llama 3
-        </div>
         <h1 className="text-4xl md:text-6xl font-bold text-white leading-tight max-w-3xl">
           Gerador de{' '}
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-sky-400 to-blue-500">
