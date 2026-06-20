@@ -6,7 +6,9 @@ const groqClient = new Groq({
   apiKey: process.env.GROQ_API_KEY,
 });
 
-const MODEL = process.env.GROQ_MODEL || 'llama3-8b-8192';
+// llama3-8b-8192 foi descontinuado em maio/2025
+// Use llama-3.1-8b-instant como substituto direto
+const MODEL = process.env.GROQ_MODEL || 'llama-3.1-8b-instant';
 
 export const groqProvider: AIProvider = {
   async summarize(text: string, fileName: string) {
